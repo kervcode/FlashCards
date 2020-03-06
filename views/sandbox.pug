@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  head
+    title 5eme Annee
+  body
+    header
+      h1 Student Names
+    section#content
+      h2 Student Names
+      table(style='width:100%', border='1')
+        each student in students
+          tr
+            td= student
+    footer
+      p An app to help you study.
